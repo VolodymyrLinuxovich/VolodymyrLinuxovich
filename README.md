@@ -4,10 +4,6 @@
   AI / ML Researcher | Data Science @ UC Berkeley | RISE Global Winner
 </p>
 
-<p align="center">
-  TacticSquare • FireImpactology • UAV swarms • Geospatial & combat modeling
-</p>
-
 ---
 
 ### 👨‍💻 About
@@ -24,7 +20,10 @@
 - **TacticSquare** - AI combat simulator for UAV coordination, route planning and attrition forecasts using RL, graph search and Bayesian Monte Carlo; piloted with units in Ukraine and backed by external funding.
 - **FireImpactology** - wildfire analytics pipeline: MODIS/VIIRS/Sentinel-2 + ERA5 + Gaussian plume to map PM2.5/PM10 and health risk.
 - **UAV Combat Modeling Toolkit** - extended Lanchester and Poisson kill-rate models, Markov processes and spatial simulators for modern engagements.
-- **CoRe-Swarm / ua-aid-scraper / DEMI / CaserAI** - supporting tools for swarms, data aggregation, hardware+CV and interview prep.
+- **CoRe-Swarm** - multi-agent RL framework for UAV swarms with communication limits, jamming, fuel and mission constraints. Experiments with constrained policies and coordinated strategies.
+- **ua-aid-scraper** - pipelines that collect and normalize Ukraine-related aid, logistics and defense data into clean, analysis-ready datasets and dashboards.
+- **DEMI** - wearable prototype with gas sensors, microcontroller and CV backend that detects TVOC spikes and automatically triggers a deodorizing spray.
+- **CaserAI** - Next.js + TypeScript platform that simulates consulting case interviews with structured feedback and progress tracking.
 
 ---
 
@@ -41,12 +40,6 @@
 
 - **INFOMATRIX International Platinum**  
   Advanced combat simulation with stochastic Lanchester models and RL-aided route planning.
-
-- **Sikorsky Challenge 2nd Place**  
-  UAV conflict modeling and decision-support toolkit with risk maps and robust routing under jamming.
-
-- **INOVA Silver (Safety & Security)**  
-  "Lanchester Model with Poisson Kill Rates" applied to UAV-influenced warfare.
 
 - **Venture and deployment**  
   About 50k USD raised to scale TacticSquare pilots with multiple Ukrainian units and international visibility.
@@ -82,4 +75,4 @@ Core domains: RL (DQN, PPO), multi-agent systems, Monte Carlo, stochastic proces
 
 - CV: in pinned or by request
 - LinkedIn: [Volodymyr Borysenko](https://www.linkedin.com/in/volodymyr-borysenkooo)
-- Email: in GitHub profile
+- Email: volodymyr_borysenko@berkeley.edu
