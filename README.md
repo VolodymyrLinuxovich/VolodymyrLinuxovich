@@ -8,15 +8,16 @@
 
 ### 👨‍💻 About
 
-- 🔭 Building **TacticSquare** and **FireImpactology** into real-world decision tools.
+- 🔭 Building **TacticSquare** for UAV coordination simulation and **FireImpactology** for wildfire exposure analysis.
 - 🎯 Focus: multi-agent RL, stochastic combat models, graph optimization, remote sensing.
-- 🛰 Working with satellite, climate and battlefield data instead of toy datasets.
-- 🇺🇦 From Ukraine, working on systems that matter.
+- 🛰 Working with Sentinel-2 and ERA5 data, downscaled climate projections and geospatial pipelines.
+- 🇺🇦 From Ukraine; my projects span heat risk, wildfire exposure and UAV coordination.
 
 ---
 
 ### 🚀 Selected projects
 
+- **[Waves](https://github.com/VolodymyrLinuxovich/mistral-waves)** ([live demo](https://waves-nine-gold.vercel.app)) - FastAPI heatwave map for Ukraine with deterministic personal-risk scoring and Mistral-generated bilingual action plans under privacy and medical-safety guardrails.
 - **[TacticSquare](https://isef.net/project/math037-uavs-in-ground-combat-stochastic-modelling)** - AI combat simulator for UAV coordination, route planning and attrition forecasts using RL, graph search and Bayesian Monte Carlo; piloted with units in Ukraine and backed by external funding.
 - **[FireImpactology](https://www.spaceappschallenge.org/2023/find-a-team/fire-impactology/?tab=project)** - wildfire analytics pipeline: MODIS/VIIRS/Sentinel-2 + ERA5 + Gaussian plume to map PM2.5/PM10 and health risk.
 - **[UAV Combat Modeling Toolkit](https://www.phailanx.com/post/lanchester-s-model-of-armed-confrontation-on-the-plane-with-the-inclusion-of-uavs)** - extended Lanchester and Poisson kill-rate models, Markov processes and spatial simulators for modern engagements.
