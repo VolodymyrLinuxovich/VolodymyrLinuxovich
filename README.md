@@ -18,7 +18,7 @@
 ### 🚀 Selected projects
 
 - **[Waves](https://github.com/VolodymyrLinuxovich/mistral-waves)** ([live demo](https://waves-nine-gold.vercel.app)) - FastAPI heatwave map for Ukraine with deterministic personal-risk scoring and Mistral-generated bilingual action plans under privacy and medical-safety guardrails.
-- **[TacticSquare](https://isef.net/project/math037-uavs-in-ground-combat-stochastic-modelling)** - AI combat simulator for UAV coordination, route planning and attrition forecasts using RL, graph search and Bayesian Monte Carlo; piloted with units in Ukraine and backed by external funding.
+- **[TacticSquare](https://isef.net/project/math037-uavs-in-ground-combat-stochastic-modelling)** - AI combat simulator for UAV coordination, route planning and attrition forecasts using RL, graph search and Bayesian Monte Carlo; field-tested in Ukraine with 10 divisions and backed by external funding.
 - **[FireImpactology](https://www.spaceappschallenge.org/2023/find-a-team/fire-impactology/?tab=project)** - wildfire analytics pipeline: MODIS/VIIRS/Sentinel-2 + ERA5 + Gaussian plume to map PM2.5/PM10 and health risk.
 - **[DEMI](https://github.com/VolodymyrLinuxovich/demi)** - wearable prototype with gas sensors, microcontroller and CV backend that detects TVOC spikes and automatically triggers a deodorizing spray.
 - **[LargeVCModel](https://github.com/VolodymyrLinuxovich/largevcmodel)** - Next.js + PostgreSQL platform for relationship search, company research, investor-fit scoring and secure Google integrations.
@@ -31,17 +31,17 @@
 - **[RISE Global Winner](https://www.risefortheworld.org/global-winners/) (Schmidt Futures & Rhodes Trust), 2024**  
   Top 100 of 50,000+ from 170+ countries with scholarship and project funding.
 
-- **[Regeneron ISEF Special Award](https://isef.net/project/math037-uavs-in-ground-combat-stochastic-modelling) (Mawhiba, King of Saudi Arabia), 2024**  
-  1 of 20 out of 1,200+ finalists for a combat-operations simulator using Monte Carlo and cellular automata.
+- **[King Abdulaziz and Mawhiba Award](https://isef.net/project/math037-uavs-in-ground-combat-stochastic-modelling), 2024**  
+  Top 10 of 1,500 finalists for a combat-operations simulator using Monte Carlo and cellular automata.
 
 - **[Genius Olympiad Gold](https://man.gov.ua/about/news/vihovanci-man-peremogli-na-genius-olympiad) (Environmental Science), 2024**  
   "FireImpactology" for wildfire, air quality and health impact modeling.
 
-- **[INFOMATRIX International Platinum](https://kman.kyiv.ua/ua/Final-Mizhnarodnoho-konkursu-INFOMATRIX-2024)**  
+- **[INFOMATRIX International](https://kman.kyiv.ua/ua/Final-Mizhnarodnoho-konkursu-INFOMATRIX-2024)** - Platinum Medal, 1st place among 300 participants  
   Advanced combat simulation with stochastic Lanchester models and RL-aided route planning.
 
 - **[Venture and deployment](https://tumo.ai/teens/report)**  
-  About 50k USD raised to scale TacticSquare pilots with multiple Ukrainian units and international visibility.
+  $50,000 raised to scale TacticSquare pilots with multiple Ukrainian units and international visibility.
 
 ---
 
