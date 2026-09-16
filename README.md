@@ -20,7 +20,6 @@
 - **[TacticSquare](https://isef.net/project/math037-uavs-in-ground-combat-stochastic-modelling)** - AI combat simulator for UAV coordination, route planning and attrition forecasts using RL, graph search and Bayesian Monte Carlo; piloted with units in Ukraine and backed by external funding.
 - **[FireImpactology](https://www.spaceappschallenge.org/2023/find-a-team/fire-impactology/?tab=project)** - wildfire analytics pipeline: MODIS/VIIRS/Sentinel-2 + ERA5 + Gaussian plume to map PM2.5/PM10 and health risk.
 - **[UAV Combat Modeling Toolkit](https://www.phailanx.com/post/lanchester-s-model-of-armed-confrontation-on-the-plane-with-the-inclusion-of-uavs)** - extended Lanchester and Poisson kill-rate models, Markov processes and spatial simulators for modern engagements.
-- **CoRe-Swarm** - multi-agent RL framework for UAV swarms with communication limits, jamming, fuel and mission constraints. Experiments with constrained policies and coordinated strategies.
 - **[ua-aid-scraper](https://github.com/VolodymyrLinuxovich/ua-aid-scraper)** - pipelines that collect and normalize Ukraine-related aid, logistics and defense data into clean, analysis-ready datasets and dashboards.
 - **[DEMI](https://github.com/VolodymyrLinuxovich/demi)** - wearable prototype with gas sensors, microcontroller and CV backend that detects TVOC spikes and automatically triggers a deodorizing spray.
 - **[CaserAI](https://github.com/VolodymyrLinuxovich/CaserAI)** - Next.js + TypeScript platform that simulates consulting case interviews with structured feedback and progress tracking.
@@ -37,13 +36,13 @@
 - **[Regeneron ISEF Special Award](https://isef.net/project/math037-uavs-in-ground-combat-stochastic-modelling) (Mawhiba, King of Saudi Arabia), 2024**  
   1 of 20 out of 1,200+ finalists for a combat-operations simulator using Monte Carlo and cellular automata.
 
-- **[Genius Olympiad Gold](https://kman.kyiv.ua/ua/Genius-Olympiad-peremozhci-2024) (Environmental Science), 2024**  
+- **[Genius Olympiad Gold](https://man.gov.ua/about/news/vihovanci-man-peremogli-na-genius-olympiad) (Environmental Science), 2024**  
   "FireImpactology" for wildfire, air quality and health impact modeling.
 
 - **[INFOMATRIX International Platinum](https://kman.kyiv.ua/ua/Final-Mizhnarodnoho-konkursu-INFOMATRIX-2024)**  
   Advanced combat simulation with stochastic Lanchester models and RL-aided route planning.
 
-- **[Venture and deployment](https://isef.net/project/math037-uavs-in-ground-combat-stochastic-modelling)**  
+- **[Venture and deployment](https://tumo.ai/teens/report)**  
   About 50k USD raised to scale TacticSquare pilots with multiple Ukrainian units and international visibility.
 
 ---
