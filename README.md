@@ -22,7 +22,6 @@
 - **[UAV Combat Modeling Toolkit](https://www.phailanx.com/post/lanchester-s-model-of-armed-confrontation-on-the-plane-with-the-inclusion-of-uavs)** - extended Lanchester and Poisson kill-rate models, Markov processes and spatial simulators for modern engagements.
 - **[ua-aid-scraper](https://github.com/VolodymyrLinuxovich/ua-aid-scraper)** - pipelines that collect and normalize Ukraine-related aid, logistics and defense data into clean, analysis-ready datasets and dashboards.
 - **[DEMI](https://github.com/VolodymyrLinuxovich/demi)** - wearable prototype with gas sensors, microcontroller and CV backend that detects TVOC spikes and automatically triggers a deodorizing spray.
-- **[CaserAI](https://github.com/VolodymyrLinuxovich/CaserAI)** - Next.js + TypeScript platform that simulates consulting case interviews with structured feedback and progress tracking.
 - **[LargeVCModel](https://github.com/VolodymyrLinuxovich/largevcmodel)** - Next.js + PostgreSQL platform for relationship search, company research, investor-fit scoring and secure Google integrations.
 - **[Schmidt DSE Climate Pipeline](https://github.com/VolodymyrLinuxovich/climate_data_pipeline)** - xarray and Dask workflows for downscaled CMIP6 analysis and National Park Service climate-risk maps at the [Eric and Wendy Schmidt Center for Data Science & Environment](https://dse.berkeley.edu/).
 
