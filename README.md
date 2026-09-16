@@ -41,7 +41,7 @@
   Advanced combat simulation with stochastic Lanchester models and RL-aided route planning.
 
 - **[Venture and deployment](https://tumo.ai/teens/report)**  
-  $50,000 raised to scale TacticSquare pilots with multiple Ukrainian units and international visibility.
+  $50,000 raised to scale TacticSquare pilots with 10 divisions and international visibility.
 
 ---
 
