@@ -26,6 +26,19 @@
 
 ---
 
+### 🌐 Open source
+
+11 merged pull requests in established open source projects:
+
+- **[OWASP Java Encoder](https://github.com/OWASP/owasp-java-encoder)** · added the new [`Encode.forJson`](https://github.com/OWASP/owasp-java-encoder/pull/151) API, [escaped DEL and C1 controls](https://github.com/OWASP/owasp-java-encoder/pull/166) in the JavaScript encoders, [added XML 1.1 tags and EL functions](https://github.com/OWASP/owasp-java-encoder/pull/168), [propagated the forUri deprecation](https://github.com/OWASP/owasp-java-encoder/pull/170) and [fixed OSGi import ranges](https://github.com/OWASP/owasp-java-encoder/pull/174)
+- **[GeoPandas](https://github.com/geopandas/geopandas)** · [made the explode index dtype consistent](https://github.com/geopandas/geopandas/pull/3871) across platforms
+- **[All the Places](https://github.com/alltheplaces/alltheplaces)** · [fixed missing Coles stores](https://github.com/alltheplaces/alltheplaces/pull/19272) and added spiders for [Foncia](https://github.com/alltheplaces/alltheplaces/pull/19164), [Promod](https://github.com/alltheplaces/alltheplaces/pull/18860) and [Lissac](https://github.com/alltheplaces/alltheplaces/pull/19273) covering 1,400+ locations
+- **[OWASP CVE Lite CLI](https://github.com/OWASP/cve-lite-cli)** · [refactored the install command](https://github.com/OWASP/cve-lite-cli/pull/1203)
+
+In review at [OWASP DependencyCheck](https://github.com/dependency-check/DependencyCheck/pull/8819), [GeoPandas](https://github.com/geopandas/geopandas/pull/3879), [rioxarray](https://github.com/corteva/rioxarray/pull/940) and [Kigali Sim](https://github.com/SchmidtDSE/kigali-sim/pull/867).
+
+---
+
 ### 🏅 Achievements
 
 - **[RISE Global Winner](https://www.risefortheworld.org/global-winners/) (Schmidt Futures & Rhodes Trust), 2024**  
