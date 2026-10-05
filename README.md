@@ -18,11 +18,13 @@
 ### 🚀 Selected projects
 
 - **[Waves](https://github.com/VolodymyrLinuxovich/mistral-waves)** ([live demo](https://waves-nine-gold.vercel.app)) - FastAPI heatwave map for Ukraine with deterministic personal-risk scoring and Mistral-generated bilingual action plans under privacy and medical-safety guardrails.
+- **[heat-risk-cuda](https://github.com/VolodymyrLinuxovich/heat-risk-cuda)** - custom CUDA C++ kernels compiled at runtime with NVIDIA `cuda.core`, verified for exact parity with NumPy and PyTorch references (171 GPU tests) and benchmarked on a Tesla T4: a shared-memory tiled kernel cut end-to-end time 2.2× and runs about 5× faster than the PyTorch baseline.
+- **[SwarmDAQ](https://github.com/VolodymyrLinuxovich/swarmdaq)** ([live demo](https://swarmdaq.vercel.app)) - performance exchange for AI agents built at WeaveHacks 2025: agents bid on tasks, a market maker routes work to the best swarm, and reputation updates after every run, with W&B Weave tracing and Redis memory.
+- **[LargeVCModel](https://github.com/VolodymyrLinuxovich/largevcmodel)** - Next.js + PostgreSQL platform for relationship search, company research, investor-fit scoring and secure Google integrations.
 - **[TacticSquare](https://isef.net/project/math037-uavs-in-ground-combat-stochastic-modelling)** - AI combat simulator for UAV coordination, route planning and attrition forecasts using RL, graph search and Bayesian Monte Carlo; field-tested in Ukraine with 10 divisions and backed by external funding.
 - **[FireImpactology](https://www.spaceappschallenge.org/2023/find-a-team/fire-impactology/?tab=project)** - wildfire analytics pipeline: MODIS/VIIRS/Sentinel-2 + ERA5 + Gaussian plume to map PM2.5/PM10 and health risk.
-- **[DEMI](https://github.com/VolodymyrLinuxovich/demi)** - wearable prototype with gas sensors, microcontroller and CV backend that detects TVOC spikes and automatically triggers a deodorizing spray.
-- **[LargeVCModel](https://github.com/VolodymyrLinuxovich/largevcmodel)** - Next.js + PostgreSQL platform for relationship search, company research, investor-fit scoring and secure Google integrations.
 - **[Schmidt DSE Climate Pipeline](https://github.com/VolodymyrLinuxovich/climate_data_pipeline)** - xarray and Dask workflows for downscaled CMIP6 analysis and National Park Service climate-risk maps at the [Eric and Wendy Schmidt Center for Data Science & Environment](https://dse.berkeley.edu/).
+- **[DEMI](https://github.com/VolodymyrLinuxovich/demi)** - wearable prototype with gas sensors, microcontroller and CV backend that detects TVOC spikes and automatically triggers a deodorizing spray.
 
 ---
 
