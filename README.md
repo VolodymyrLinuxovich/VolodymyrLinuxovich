@@ -30,14 +30,16 @@
 
 ### 🌐 Open source
 
-15 merged pull requests in established open source projects:
+22 merged pull requests in established open source projects:
 
 - **[OWASP Java Encoder](https://github.com/OWASP/owasp-java-encoder)** · added the new [`Encode.forJson`](https://github.com/OWASP/owasp-java-encoder/pull/151) API, [escaped DEL and C1 controls](https://github.com/OWASP/owasp-java-encoder/pull/166) in the JavaScript encoders, [added XML 1.1 tags and EL functions](https://github.com/OWASP/owasp-java-encoder/pull/168), [propagated the forUri deprecation](https://github.com/OWASP/owasp-java-encoder/pull/170) and [fixed OSGi import ranges](https://github.com/OWASP/owasp-java-encoder/pull/174)
-- **[GeoPandas](https://github.com/geopandas/geopandas)** · [made the explode index dtype consistent](https://github.com/geopandas/geopandas/pull/3871) across platforms
-- **[All the Places](https://github.com/alltheplaces/alltheplaces)** · [fixed missing Coles stores](https://github.com/alltheplaces/alltheplaces/pull/19272) and added spiders for [Royal Mail](https://github.com/alltheplaces/alltheplaces/pull/19405), [Foncia](https://github.com/alltheplaces/alltheplaces/pull/19164), [Promod](https://github.com/alltheplaces/alltheplaces/pull/18860), [Lissac](https://github.com/alltheplaces/alltheplaces/pull/19273), [Jean Louis David](https://github.com/alltheplaces/alltheplaces/pull/19410), [Roc Eclerc](https://github.com/alltheplaces/alltheplaces/pull/19409) and [Monceau Fleurs](https://github.com/alltheplaces/alltheplaces/pull/19408) covering 139,000+ locations
+- **[GeoPandas](https://github.com/geopandas/geopandas)** · [made the explode index dtype consistent](https://github.com/geopandas/geopandas/pull/3871) across platforms and [removed a dead testing helper](https://github.com/geopandas/geopandas/pull/3869)
+- **[All the Places](https://github.com/alltheplaces/alltheplaces)** · [fixed missing Coles stores](https://github.com/alltheplaces/alltheplaces/pull/19272) and added spiders for [Royal Mail](https://github.com/alltheplaces/alltheplaces/pull/19405), [Foncia](https://github.com/alltheplaces/alltheplaces/pull/19164), [Promod](https://github.com/alltheplaces/alltheplaces/pull/18860), [Lissac](https://github.com/alltheplaces/alltheplaces/pull/19273), [Jean Louis David](https://github.com/alltheplaces/alltheplaces/pull/19410), [Roc Eclerc](https://github.com/alltheplaces/alltheplaces/pull/19409), [Monceau Fleurs](https://github.com/alltheplaces/alltheplaces/pull/19408), [Devred](https://github.com/alltheplaces/alltheplaces/pull/19407), [Packeta](https://github.com/alltheplaces/alltheplaces/pull/19418), [NTT public telephones](https://github.com/alltheplaces/alltheplaces/pull/19475) and [Daiwa Cycle](https://github.com/alltheplaces/alltheplaces/pull/19483) covering 225,000+ locations
+- **[Kigali Sim](https://github.com/SchmidtDSE/kigali-sim)** · [added operation types to the program validator](https://github.com/SchmidtDSE/kigali-sim/pull/867)
+- **[PySAL mgwr](https://github.com/pysal/mgwr)** · [fixed the search method values in the bandwidth selector docs](https://github.com/pysal/mgwr/pull/173)
 - **[OWASP CVE Lite CLI](https://github.com/OWASP/cve-lite-cli)** · [refactored the install command](https://github.com/OWASP/cve-lite-cli/pull/1203)
 
-In review at [OWASP DependencyCheck](https://github.com/dependency-check/DependencyCheck/pull/8819), [GeoPandas](https://github.com/geopandas/geopandas/pull/3879), [rioxarray](https://github.com/corteva/rioxarray/pull/940) and [Kigali Sim](https://github.com/SchmidtDSE/kigali-sim/pull/867).
+In review at [OWASP DependencyCheck](https://github.com/dependency-check/DependencyCheck/pull/8819), [GeoPandas](https://github.com/geopandas/geopandas/pull/3879), [rioxarray](https://github.com/corteva/rioxarray/pull/940), [NeMo Curator](https://github.com/NVIDIA-NeMo/Curator/pull/2477) and [Newton](https://github.com/newton-physics/newton/pull/4600).
 
 ---
 
