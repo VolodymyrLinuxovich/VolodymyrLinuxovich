@@ -1,108 +1,94 @@
-<h1 align="center">Volodymyr Borysenko</h1>
+# Volodymyr Borysenko
 
-<p align="center">
-  Software Engineering + AI/ML | Data Science @ UC Berkeley | RISE Global Winner
-</p>
+Data Science and CS student at UC Berkeley, from Ukraine. I build GPU kernels, data pipelines and full-stack products, and I contribute to open-source geospatial, security and data tooling.
 
----
+[vborysenko.com](https://vborysenko.com) · [LinkedIn](https://www.linkedin.com/in/volodymyr-borysenkooo) · [Resume](https://drive.google.com/file/d/1-Te5vAf4e73Ow701r_0d1FXeJbv-WRBA/view?usp=sharing) · volodymyr_borysenko@berkeley.edu
 
-### 👨‍💻 About
+**What I work on**
 
-- 🔭 Building **TacticSquare** for UAV coordination simulation and **FireImpactology** for wildfire exposure analysis.
-- 🎯 Focus: multi-agent RL, stochastic combat models, graph optimization, remote sensing.
-- 🛰 Working with Sentinel-2 and ERA5 data, downscaled climate projections and geospatial pipelines.
-- 🇺🇦 From Ukraine; my projects span heat risk, wildfire exposure and UAV coordination.
-- 📈 Kaggle: [rank 5 of 564](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/leaderboard) in Store Sales forecasting, top 1% in Housing Prices, 40+ [public notebooks](https://www.kaggle.com/volodymyrborysenko/code).
+- **GPU and performance:** CUDA C++ kernels, memory-layout tuning, benchmarks with exact parity checks against CPU references.
+- **Data at scale:** crawlers and geospatial pipelines that cover whole countries, with checks that nothing is missed or duplicated.
+- **Full-stack products:** Next.js, TypeScript, PostgreSQL, Python services, OAuth integrations and tested authorization.
+- **Modeling:** probabilistic forecasting, Monte Carlo simulation and calibration on real outcomes.
 
 ---
 
-### 🚀 Selected projects
+## Featured projects
 
-- **[Waves](https://github.com/VolodymyrLinuxovich/mistral-waves)** ([live demo](https://waves-nine-gold.vercel.app)) - FastAPI heatwave map for Ukraine with deterministic personal-risk scoring and Mistral-generated bilingual action plans under privacy and medical-safety guardrails.
-- **[heat-risk-cuda](https://github.com/VolodymyrLinuxovich/heat-risk-cuda)** - custom CUDA C++ kernels compiled at runtime with NVIDIA `cuda.core`, verified for exact parity with NumPy and PyTorch references (171 GPU tests) and benchmarked on a Tesla T4: a shared-memory tiled kernel cut end-to-end time 2.2× and runs about 5× faster than the PyTorch baseline.
-- **[SwarmDAQ](https://github.com/VolodymyrLinuxovich/swarmdaq)** ([live demo](https://swarmdaq.vercel.app)) - performance exchange for AI agents built at WeaveHacks 2025: agents bid on tasks, a market maker routes work to the best swarm, and reputation updates after every run, with W&B Weave tracing and Redis memory.
-- **[LargeVCModel](https://github.com/VolodymyrLinuxovich/largevcmodel)** - Next.js + PostgreSQL platform for relationship search, company research, investor-fit scoring and secure Google integrations.
-- **[TacticSquare](https://isef.net/project/math037-uavs-in-ground-combat-stochastic-modelling)** - AI combat simulator for UAV coordination, route planning and attrition forecasts using RL, graph search and Bayesian Monte Carlo; field-tested in Ukraine with 10 divisions and backed by external funding.
-- **[FireImpactology](https://www.spaceappschallenge.org/2023/find-a-team/fire-impactology/?tab=project)** - wildfire analytics pipeline: MODIS/VIIRS/Sentinel-2 + ERA5 + Gaussian plume to map PM2.5/PM10 and health risk.
-- **[Schmidt DSE Climate Pipeline](https://github.com/VolodymyrLinuxovich/climate_data_pipeline)** - xarray and Dask workflows for downscaled CMIP6 analysis and National Park Service climate-risk maps at the [Eric and Wendy Schmidt Center for Data Science & Environment](https://dse.berkeley.edu/).
-- **[DEMI](https://github.com/VolodymyrLinuxovich/demi)** - wearable prototype with gas sensors, microcontroller and CV backend that detects TVOC spikes and automatically triggers a deodorizing spray.
+### [heat-risk-cuda](https://github.com/VolodymyrLinuxovich/heat-risk-cuda)
+CUDA C++ kernels, compiled at runtime with NVIDIA `cuda.core`, that count heat-hazard days and their longest runs over `[scenario, location, day]` arrays.
 
----
+- Profiling on a Tesla T4 showed a GPU transpose took 261 ms of the 458 ms end-to-end time. A shared-memory tiled kernel that reads the original layout removed it: **457 ms → 208 ms (2.2×)** on 187M cells.
+- Every GPU result matches the NumPy reference exactly. **171 GPU tests** passed on the T4.
+- Baselines: NumPy, multithreaded C++17 and PyTorch. Benchmark tables are generated from the JSON of each GPU run, and the README reports where the GPU does *not* win (end to end, it roughly ties 10 laptop CPU threads once data crosses PCIe).
 
-### 🌐 Open source
+`CUDA C++` `Python` `cuda.core` `NVRTC` `PyTorch` `C++17`
 
-42 merged pull requests across 11 established open source projects:
+### [Recount](https://github.com/VolodymyrLinuxovich/recount) · [live](https://recount-nu.vercel.app) · Cal Hacks 13.0 winner
+Checks a photo of a California hospital bill against the hospital's own published prices and California charity-care law, then drafts letters the patient approves. Solo project; won the Apify Best Actor award and the Convex sponsor prize.
 
-| Project | Merged | Highlights |
-|---|:---:|---|
-| **[OWASP Java Encoder](https://github.com/OWASP/owasp-java-encoder)** | 5 | Added the new [`Encode.forJson`](https://github.com/OWASP/owasp-java-encoder/pull/151) API, [escaped DEL and C1 controls](https://github.com/OWASP/owasp-java-encoder/pull/166) in the JavaScript encoders, [added XML 1.1 tags and EL functions](https://github.com/OWASP/owasp-java-encoder/pull/168), [propagated the forUri deprecation](https://github.com/OWASP/owasp-java-encoder/pull/170) and [fixed OSGi import ranges](https://github.com/OWASP/owasp-java-encoder/pull/174) |
-| **[GeoPandas](https://github.com/geopandas/geopandas)** | 2 | [Made the explode index dtype consistent](https://github.com/geopandas/geopandas/pull/3871) across platforms and [removed a dead testing helper](https://github.com/geopandas/geopandas/pull/3869) |
-| **[All the Places](https://github.com/alltheplaces/alltheplaces)** | 27 | [Fixed missing Coles stores](https://github.com/alltheplaces/alltheplaces/pull/19272), [fixed duplicate Japan Post refs](https://github.com/alltheplaces/alltheplaces/pull/19633) and added 25 spiders including [Royal Mail](https://github.com/alltheplaces/alltheplaces/pull/19405), [NTT public telephones](https://github.com/alltheplaces/alltheplaces/pull/19475), [Packeta](https://github.com/alltheplaces/alltheplaces/pull/19418), [Curves](https://github.com/alltheplaces/alltheplaces/pull/19811) and [Mizuho Bank](https://github.com/alltheplaces/alltheplaces/pull/19624), covering 234,000+ locations |
-| **[NVIDIA NeMo Curator](https://github.com/NVIDIA-NeMo/Curator)** | 1 | [Allowed boilerplate removal at both the top and bottom of documents](https://github.com/NVIDIA-NeMo/Curator/pull/2477) |
-| **[rioxarray](https://github.com/vylor/rioxarray)** | 1 | [Raised an informative error for 2D spatial coordinates and fixed `rio.shape`](https://github.com/vylor/rioxarray/pull/940) |
-| **[Kigali Sim](https://github.com/SchmidtDSE/kigali-sim)** | 1 | [Added operation types to the program validator](https://github.com/SchmidtDSE/kigali-sim/pull/867) |
-| **[PySAL mgwr](https://github.com/pysal/mgwr)** | 1 | [Fixed the search method values in the bandwidth selector docs](https://github.com/pysal/mgwr/pull/173) |
-| **[OWASP CVE Lite CLI](https://github.com/OWASP/cve-lite-cli)** | 1 | [Refactored the install command](https://github.com/OWASP/cve-lite-cli/pull/1203) |
-| **[OWASP API Security Testing Framework](https://github.com/OWASP/www-project-api-security-testing-framework)** | 1 | [Read requestBody from inline config endpoints](https://github.com/OWASP/www-project-api-security-testing-framework/pull/137) |
-| **[Dependency-Track](https://github.com/DependencyTrack/frontend)** | 1 | [Pointed the About dialog to the v5 docs](https://github.com/DependencyTrack/frontend/pull/1917) |
-| **[PySAL segregation](https://github.com/pysal/segregation)** | 1 | [Fixed a duplicate table row and updated the community link](https://github.com/pysal/segregation/pull/301) |
+- [Public Apify Actor](https://apify.com/enterprising_arboretum_iq2/hospital-price-and-charity-finder) (Python) that finds and streams hospital price files. Line-level price checks work for 340 of 470 California hospitals.
+- [Statewide audit](https://recount-nu.vercel.app/audit) of the charity-care policies of all 470 hospitals listed by HCAI, flagging policies that conflict with state law, with the quote.
+- Eval set of synthetic bills priced from real price files: 181 of 181 lines read correctly on 30 bills (synthetic data, not patient bills).
 
-In review at [OWASP DependencyCheck](https://github.com/dependency-check/DependencyCheck/pull/8819), [GeoPandas](https://github.com/geopandas/geopandas/pull/3879) and [Newton](https://github.com/newton-physics/newton/pull/4600).
+`TypeScript` `Next.js` `Convex` `Python` `Claude API` `Expo`
 
----
+### [Highwater](https://github.com/VolodymyrLinuxovich/highwater) · [live](https://highwater-tau.vercel.app) · B@BHacks 2.0
+Prices every Gemini daily high-temperature contract across 49 US cities by conditioning 82 GFS and ECMWF ensemble members on the temperatures already observed that day (4,000-draw Monte Carlo).
 
-### 🏅 Achievements
+- Replayed on **978 settled markets**: Brier score 0.306 at 6 pm vs 0.477 for the forecast alone. All 2,345 contracts the observed floor ruled out settled NO.
+- These are historical replays and a paper order book, not live trading results.
 
-- **[RISE Global Winner](https://www.risefortheworld.org/global-winners/) (Schmidt Futures & Rhodes Trust), 2024**  
-  Top 100 of 50,000+ from 170+ countries with scholarship and project funding.
+`TypeScript` `Next.js` `Monte Carlo` `x402`
 
-- **[King Abdulaziz and Mawhiba Award](https://isef.net/project/math037-uavs-in-ground-combat-stochastic-modelling), 2024**  
-  Top 10 of 1,500 finalists for a combat-operations simulator using Monte Carlo and cellular automata.
+### [LargeVCModel](https://github.com/VolodymyrLinuxovich/largevcmodel)
+Research and relationship tool for investors: search Gmail, Contacts and Calendar history, score companies against a saved thesis, and draft outreach that cites its evidence.
 
-- **[Genius Olympiad Gold](https://man.gov.ua/about/news/vihovanci-man-peremogli-na-genius-olympiad) (Environmental Science), 2024**  
-  "FireImpactology" for wildfire, air quality and health impact modeling.
+- Google OAuth with AES-GCM encrypted tokens. Every query is scoped to the signed-in user, and nothing is sent without a second explicit confirmation.
+- Python FastAPI retrieval service on PostgreSQL and pgvector (HNSW cosine search).
+- CI runs the TypeScript and Python suites, including PostgreSQL integration tests and tenant-isolation tests.
 
-- **[INFOMATRIX International Platinum Medal](https://kman.kyiv.ua/ua/Final-Mizhnarodnoho-konkursu-INFOMATRIX-2024), 2024**  
-  1st place among 300 participants for advanced combat simulation with stochastic Lanchester models and RL-aided route planning.
+`TypeScript` `Next.js` `PostgreSQL` `Prisma` `FastAPI` `pgvector`
 
-- **All-Ukrainian Programming Cup, 3rd place and Jane Street Award, 2025**
-
-- **[NASA Space Apps Challenge](https://www.spaceappschallenge.org/2023/find-a-team/fire-impactology/?tab=project), 2nd place in Ukraine, 2023**  
-  FireImpactology wildfire and air quality pipeline.
-
-- **[Venture and deployment](https://tumo.ai/teens/report)**  
-  $50,000 raised to scale TacticSquare pilots with 10 divisions and international visibility.
+**Also:** [Schmidt DSE climate pipeline](https://github.com/VolodymyrLinuxovich/climate_data_pipeline) (Berkeley research: xarray and Dask over downscaled CMIP6 for National Park Service maps) · [Waves](https://github.com/VolodymyrLinuxovich/mistral-waves) (heatwave risk map for Ukraine) · [SwarmDAQ](https://github.com/VolodymyrLinuxovich/swarmdaq) (task market for AI agents, WeaveHacks 2025)
 
 ---
 
-### 🧰 Tech stack
+## Open source
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,cpp,ts,js,bash,matlab,r" />
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv" />
-  <img src="https://skillicons.dev/icons?i=postgresql,fastapi,nodejs,docker,git,github" />
-</p>
+**57 merged pull requests in 12 external repositories** (as of Oct 27, 2026; PRs to my own repos not counted). The ones below did the most engineering work.
 
-Core domains: CUDA and GPU computing, RL (DQN, PPO), multi-agent systems, Monte Carlo, stochastic processes, graph algorithms, geospatial and remote sensing (GeoPandas, Rasterio, rioxarray, GDAL), time series, simulation.
+**[All the Places](https://github.com/alltheplaces/alltheplaces)** · 41 merged: 39 new spiders and 2 fixes. The 39 spiders reported 239,973 locations in their test crawls (crawl output, not deduplicated or checked as currently open).
+
+- [Royal Mail](https://github.com/alltheplaces/alltheplaces/pull/19405): the API returns only the 60 nearest places, so the spider splits the UK into quadrants until each box is fully covered. 136,489 places. On a central London check it found the same 923 places as a dense grid with 78 requests instead of 390.
+- [Japan Post fix](https://github.com/alltheplaces/alltheplaces/pull/19633): post box numbers repeat across regions, so the duplicate filter was dropping about 73,000 real boxes. Also fixed paging in the shared e-map crawler.
+- [NTT public telephones](https://github.com/alltheplaces/alltheplaces/pull/19475): 69,357 payphones. Converted coordinates from the old Tokyo datum to WGS 84; median distance to matching OpenStreetMap phones fell from 112 m to 8 m.
+- [Packeta](https://github.com/alltheplaces/alltheplaces/pull/19418): 15,929 pickup points in 5 countries, splitting geohash cells when a response hits the 100-result cap.
+- [Coles fix](https://github.com/alltheplaces/alltheplaces/pull/19272): recursive search in dense areas, where the API caps results at 15. Inner Melbourne went from 58 to 146 stores, matching the exhaustive count.
+
+**[OWASP Java Encoder](https://github.com/OWASP/owasp-java-encoder)** · 5 merged
+
+- [`Encode.forJson`](https://github.com/OWASP/owasp-java-encoder/pull/151): a new public API for JSON string contexts (RFC 8259), with JSP and Jakarta tags. 1,865 added lines across 29 files.
+- [JavaScript encoders](https://github.com/OWASP/owasp-java-encoder/pull/166) now escape DEL and C1 controls. [OSGi import ranges](https://github.com/OWASP/owasp-java-encoder/pull/174) derived from each bundle's bytecode so adapters cannot load against an older core. Plus [XML 1.1 tags](https://github.com/OWASP/owasp-java-encoder/pull/168) and a [deprecation fix](https://github.com/OWASP/owasp-java-encoder/pull/170).
+
+**Other merged work**
+
+- [GeoPandas #3871](https://github.com/geopandas/geopandas/pull/3871): `explode` index dtype now int64 on every platform, fixing failures on 32-bit builds.
+- [rioxarray #940](https://github.com/vylor/rioxarray/pull/940): clear error for 2D spatial coordinates and a fix for `rio.shape`.
+- [NVIDIA NeMo Curator #2477](https://github.com/NVIDIA-NeMo/Curator/pull/2477): boilerplate removal now handles runs at both the top and bottom of a document.
+- [Kigali Sim #867](https://github.com/SchmidtDSE/kigali-sim/pull/867): operation types for the program validator.
+- Smaller fixes and docs: [GeoPandas](https://github.com/geopandas/geopandas/pull/3869), [OWASP API Security Testing Framework](https://github.com/OWASP/www-project-api-security-testing-framework/pull/137), [OWASP CVE Lite CLI](https://github.com/OWASP/cve-lite-cli/pull/1203), [Dependency-Track](https://github.com/DependencyTrack/frontend/pull/1917), [PySAL mgwr](https://github.com/pysal/mgwr/pull/173), [PySAL segregation](https://github.com/pysal/segregation/pull/301), [Numerai](https://github.com/numerai/example-scripts/pull/196).
 
 ---
 
-### 📊 Stats
+## Awards and research
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VolodymyrLinuxovich&show_icons=true&include_all_commits=true&count_private=true&hide_title=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VolodymyrLinuxovich&layout=compact&hide_title=true&langs_count=8" height="150" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=VolodymyrLinuxovich" height="150" />
-</p>
-
----
-
-### 🔗 Links
-
-- Resume: [View PDF](https://drive.google.com/file/d/1-Te5vAf4e73Ow701r_0d1FXeJbv-WRBA/view?usp=sharing)
-- Website: [vborysenko.com](https://vborysenko.com)
-- LinkedIn: [Volodymyr Borysenko](https://www.linkedin.com/in/volodymyr-borysenkooo)
-- Email: volodymyr_borysenko@berkeley.edu
+- **[RISE Global Winner](https://www.risefortheworld.org/global-winners/)**, 2024. Schmidt Futures and Rhodes Trust.
+- **[ISEF King Abdulaziz and Mawhiba Special Award](https://isef.net/project/math037-uavs-in-ground-combat-stochastic-modelling)**, 2024, for TacticSquare, a UAV combat simulator (Monte Carlo, stochastic Lanchester models, RL route planning). [Science News Explores coverage](https://www.snexplores.org/article/regeneron-isef-2024-ukraine-battle-simulator-ground-attacks).
+- **[INFOMATRIX Platinum Medal](https://kman.kyiv.ua/ua/Final-Mizhnarodnoho-konkursu-INFOMATRIX-2024)**, 2024, for TacticSquare. Piloted with 10 divisions in Ukraine and [raised $50,000](https://tumo.ai/teens/report). Code not public.
+- **[GENIUS Olympiad Gold](https://man.gov.ua/about/news/vihovanci-man-peremogli-na-genius-olympiad)**, Environmental Science, 2024, for FireImpactology, a wildfire air-quality and health model. Code not public.
+- **[NASA Space Apps Challenge](https://www.spaceappschallenge.org/2023/find-a-team/fire-impactology/?tab=project)**, 2nd in Ukraine, 2023, for FireImpactology.
+- **All-Ukrainian Programming Cup**, 3rd place and Jane Street Award, 2025.
+- **Hackathons:** Agentic AI SF Hackathon, 1st place ([FireScout](https://github.com/VolodymyrLinuxovich/firescout), wildfire smoke alert agent). Cal Hacks 13.0, Apify Best Actor and Convex prize (Recount). B@BHacks 2.0, Gemini award (Highwater).
+- **Research:** climate-risk analysis at Berkeley's [Eric and Wendy Schmidt Center for Data Science & Environment](https://dse.berkeley.edu/).
+- **Kaggle:** [rank 7 of 566](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/leaderboard) in Store Sales forecasting (Oct 2026, rolling leaderboard) and [public notebooks](https://www.kaggle.com/volodymyrborysenko/code).
