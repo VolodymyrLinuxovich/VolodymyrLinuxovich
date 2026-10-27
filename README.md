@@ -11,6 +11,14 @@ Data Science and CS student at UC Berkeley, from Ukraine. I build GPU kernels, d
 - **Full-stack products:** Next.js, TypeScript, PostgreSQL, Python services, OAuth integrations and tested authorization.
 - **Modeling:** probabilistic forecasting, Monte Carlo simulation and calibration on real outcomes.
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,ts,js,bash,matlab,r" alt="Python, C++, TypeScript, JavaScript, Bash, MATLAB, R" />
+  <br />
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv" alt="PyTorch, TensorFlow, scikit-learn, OpenCV" />
+  <br />
+  <img src="https://skillicons.dev/icons?i=postgresql,fastapi,nodejs,docker,git,github" alt="PostgreSQL, FastAPI, Node.js, Docker, Git, GitHub" />
+</p>
+
 ---
 
 ## Featured projects
@@ -92,3 +100,16 @@ Research and relationship tool for investors: search Gmail, Contacts and Calenda
 - **Hackathons:** Agentic AI SF Hackathon, 1st place ([FireScout](https://github.com/VolodymyrLinuxovich/firescout), wildfire smoke alert agent). Cal Hacks 13.0, Apify Best Actor and Convex prize (Recount). B@BHacks 2.0, Gemini award (Highwater).
 - **Research:** climate-risk analysis at Berkeley's [Eric and Wendy Schmidt Center for Data Science & Environment](https://dse.berkeley.edu/).
 - **Kaggle:** [rank 7 of 566](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/leaderboard) in Store Sales forecasting (Oct 2026, rolling leaderboard) and [public notebooks](https://www.kaggle.com/volodymyrborysenko/code).
+
+---
+
+## GitHub stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=VolodymyrLinuxovich&show_icons=true&include_all_commits=true&count_private=true&hide_title=true" height="150" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VolodymyrLinuxovich&layout=compact&hide_title=true&langs_count=8" height="150" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=VolodymyrLinuxovich" height="150" alt="Contribution streak" />
+</p>
