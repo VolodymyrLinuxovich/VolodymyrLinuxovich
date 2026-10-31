@@ -78,7 +78,7 @@ In review at [OWASP DependencyCheck](https://github.com/dependency-check/Depende
 ### 🧰 Tech stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,cpp,ts,js,bash,matlab,r" />
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,c,js,ts,html,css" />
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv" />
   <img src="https://skillicons.dev/icons?i=postgresql,fastapi,nodejs,docker,git,github" />
 </p>
