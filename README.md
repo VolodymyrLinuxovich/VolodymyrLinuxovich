@@ -18,6 +18,7 @@
 
 ### 🚀 Selected projects
 
+- **[Recount](https://github.com/VolodymyrLinuxovich/recount)** ([live demo](https://recount-nu.vercel.app)) - Cal Hacks 13.0 winner (Apify and Convex prizes), built solo: snap a hospital bill and it checks each charge against the hospital's published cash prices and California charity care law, then drafts the dispute or financial aid application. Prices for 340 of 470 California hospitals come from a public Apify Actor; Convex runs the backend.
 - **[Waves](https://github.com/VolodymyrLinuxovich/mistral-waves)** ([live demo](https://waves-nine-gold.vercel.app)) - FastAPI heatwave map for Ukraine with deterministic personal-risk scoring and Mistral-generated bilingual action plans under privacy and medical-safety guardrails.
 - **[heat-risk-cuda](https://github.com/VolodymyrLinuxovich/heat-risk-cuda)** - custom CUDA C++ kernels compiled at runtime with NVIDIA `cuda.core`, verified for exact parity with NumPy and PyTorch references (171 GPU tests) and benchmarked on a Tesla T4: a shared-memory tiled kernel cut end-to-end time 2.2× and runs about 5× faster than the PyTorch baseline.
 - **[SwarmDAQ](https://github.com/VolodymyrLinuxovich/swarmdaq)** ([live demo](https://swarmdaq.vercel.app)) - performance exchange for AI agents built at WeaveHacks 2025: agents bid on tasks, a market maker routes work to the best swarm, and reputation updates after every run, with W&B Weave tracing and Redis memory.
@@ -52,6 +53,9 @@ In review at [OWASP DependencyCheck](https://github.com/dependency-check/Depende
 ---
 
 ### 🏅 Achievements
+
+- **[Cal Hacks 13.0 Winner](https://devpost.com/software/recount-spgda6), Apify and Convex prizes, 2026**  
+  "Recount", a hospital bill checker that catches overcharges and finds charity care patients qualify for.
 
 - **[RISE Global Winner](https://www.risefortheworld.org/global-winners/) (Schmidt Futures & Rhodes Trust), 2024**  
   Top 100 of 50,000+ from 170+ countries with scholarship and project funding.
