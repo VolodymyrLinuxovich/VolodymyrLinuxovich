@@ -90,8 +90,8 @@ Core domains: CUDA and GPU computing, RL (DQN, PPO), multi-agent systems, Monte 
 ### 📊 Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VolodymyrLinuxovich&show_icons=true&include_all_commits=true&count_private=true&hide_title=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VolodymyrLinuxovich&layout=compact&hide_title=true&langs_count=8" height="150" />
+  <img src="./profile/stats.svg" height="150" />
+  <img src="./profile/top-langs.svg" height="150" />
 </p>
 
 <p align="center">
