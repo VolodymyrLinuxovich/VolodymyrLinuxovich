@@ -12,7 +12,7 @@
 - 🎯 Focus: multi-agent RL, stochastic combat models, graph optimization, remote sensing.
 - 🛰 Working with Sentinel-2 and ERA5 data, downscaled climate projections and geospatial pipelines.
 - 🇺🇦 From Ukraine; my projects span heat risk, wildfire exposure and UAV coordination.
-- 📈 Kaggle: [rank 5 of 564](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/leaderboard) in Store Sales forecasting, top 1% in Housing Prices, 40+ [public notebooks](https://www.kaggle.com/volodymyrborysenko/code).
+- 📈 Kaggle: [rank 10 of 600](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/leaderboard) in Store Sales forecasting, top 1% in Housing Prices, 100+ [public notebooks](https://www.kaggle.com/volodymyrborysenko/code).
 
 ---
 
@@ -32,23 +32,26 @@
 
 ### 🌐 Open source
 
-42 merged pull requests across 11 established open source projects:
+111 merged pull requests across 14 established open source projects:
 
 | Project | Merged | Highlights |
 |---|:---:|---|
 | **[OWASP Java Encoder](https://github.com/OWASP/owasp-java-encoder)** | 5 | Added the new [`Encode.forJson`](https://github.com/OWASP/owasp-java-encoder/pull/151) API, [escaped DEL and C1 controls](https://github.com/OWASP/owasp-java-encoder/pull/166) in the JavaScript encoders, [added XML 1.1 tags and EL functions](https://github.com/OWASP/owasp-java-encoder/pull/168), [propagated the forUri deprecation](https://github.com/OWASP/owasp-java-encoder/pull/170) and [fixed OSGi import ranges](https://github.com/OWASP/owasp-java-encoder/pull/174) |
 | **[GeoPandas](https://github.com/geopandas/geopandas)** | 2 | [Made the explode index dtype consistent](https://github.com/geopandas/geopandas/pull/3871) across platforms and [removed a dead testing helper](https://github.com/geopandas/geopandas/pull/3869) |
-| **[All the Places](https://github.com/alltheplaces/alltheplaces)** | 27 | [Fixed missing Coles stores](https://github.com/alltheplaces/alltheplaces/pull/19272), [fixed duplicate Japan Post refs](https://github.com/alltheplaces/alltheplaces/pull/19633) and added 25 spiders including [Royal Mail](https://github.com/alltheplaces/alltheplaces/pull/19405), [NTT public telephones](https://github.com/alltheplaces/alltheplaces/pull/19475), [Packeta](https://github.com/alltheplaces/alltheplaces/pull/19418), [Curves](https://github.com/alltheplaces/alltheplaces/pull/19811) and [Mizuho Bank](https://github.com/alltheplaces/alltheplaces/pull/19624), covering 234,000+ locations |
+| **[All the Places](https://github.com/alltheplaces/alltheplaces)** | 92 | [Fixed missing Coles stores](https://github.com/alltheplaces/alltheplaces/pull/19272), [fixed duplicate Japan Post refs](https://github.com/alltheplaces/alltheplaces/pull/19633), moved Japanese spiders to shared store locators and added 75 spiders including [Royal Mail](https://github.com/alltheplaces/alltheplaces/pull/19405), [NTT public telephones](https://github.com/alltheplaces/alltheplaces/pull/19475), [Packeta](https://github.com/alltheplaces/alltheplaces/pull/19418), [Curves](https://github.com/alltheplaces/alltheplaces/pull/19811) and [Mizuho Bank](https://github.com/alltheplaces/alltheplaces/pull/19624), covering 248,000+ locations |
+| **[OWASP Dependency-Check](https://github.com/dependency-check/DependencyCheck)** | 1 | [Waited for NVD processing threads to stop before closing the database](https://github.com/dependency-check/DependencyCheck/pull/8819) |
+| **[Apify Crawlee](https://github.com/apify/crawlee)** | 1 | [Restored request queue counts after a restart](https://github.com/apify/crawlee/pull/4303) |
 | **[NVIDIA NeMo Curator](https://github.com/NVIDIA-NeMo/Curator)** | 1 | [Allowed boilerplate removal at both the top and bottom of documents](https://github.com/NVIDIA-NeMo/Curator/pull/2477) |
 | **[rioxarray](https://github.com/vylor/rioxarray)** | 1 | [Raised an informative error for 2D spatial coordinates and fixed `rio.shape`](https://github.com/vylor/rioxarray/pull/940) |
-| **[Kigali Sim](https://github.com/SchmidtDSE/kigali-sim)** | 1 | [Added operation types to the program validator](https://github.com/SchmidtDSE/kigali-sim/pull/867) |
+| **[Kigali Sim](https://github.com/SchmidtDSE/kigali-sim)** | 2 | [Added operation types to the program validator](https://github.com/SchmidtDSE/kigali-sim/pull/867) and [moved the build to JDK 25](https://github.com/SchmidtDSE/kigali-sim/pull/873) |
 | **[PySAL mgwr](https://github.com/pysal/mgwr)** | 1 | [Fixed the search method values in the bandwidth selector docs](https://github.com/pysal/mgwr/pull/173) |
 | **[OWASP CVE Lite CLI](https://github.com/OWASP/cve-lite-cli)** | 1 | [Refactored the install command](https://github.com/OWASP/cve-lite-cli/pull/1203) |
 | **[OWASP API Security Testing Framework](https://github.com/OWASP/www-project-api-security-testing-framework)** | 1 | [Read requestBody from inline config endpoints](https://github.com/OWASP/www-project-api-security-testing-framework/pull/137) |
 | **[Dependency-Track](https://github.com/DependencyTrack/frontend)** | 1 | [Pointed the About dialog to the v5 docs](https://github.com/DependencyTrack/frontend/pull/1917) |
 | **[PySAL segregation](https://github.com/pysal/segregation)** | 1 | [Fixed a duplicate table row and updated the community link](https://github.com/pysal/segregation/pull/301) |
+| **[Numerai example scripts](https://github.com/numerai/example-scripts)** | 1 | [Fetched the MCP install script over HTTPS](https://github.com/numerai/example-scripts/pull/196) |
 
-In review at [OWASP DependencyCheck](https://github.com/dependency-check/DependencyCheck/pull/8819), [GeoPandas](https://github.com/geopandas/geopandas/pull/3879) and [Newton](https://github.com/newton-physics/newton/pull/4600).
+In review at [OWASP ESAPI](https://github.com/ESAPI/esapi-java-legacy/pulls?q=is%3Apr+author%3AVolodymyrLinuxovich), [GeoPandas](https://github.com/geopandas/geopandas/pull/3879) and [Newton](https://github.com/newton-physics/newton/pull/4600).
 
 ---
 
