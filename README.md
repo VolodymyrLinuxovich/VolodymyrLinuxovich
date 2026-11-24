@@ -57,9 +57,6 @@ In review at [OWASP ESAPI](https://github.com/ESAPI/esapi-java-legacy/pulls?q=is
 
 ### 🏅 Achievements
 
-- **[Cal Hacks 13.0 Winner](https://devpost.com/software/recount-spgda6), Apify and Convex prizes, 2026**  
-  "Recount", a hospital bill checker that catches overcharges and finds charity care patients qualify for.
-
 - **[RISE Global Winner](https://www.risefortheworld.org/global-winners/) (Schmidt Futures & Rhodes Trust), 2024**  
   Top 100 of 50,000+ from 170+ countries with scholarship and project funding.
 
@@ -79,6 +76,28 @@ In review at [OWASP ESAPI](https://github.com/ESAPI/esapi-java-legacy/pulls?q=is
 
 - **[Venture and deployment](https://tumo.ai/teens/report)**  
   $50,000 raised to scale TacticSquare pilots with 10 divisions and international visibility.
+
+---
+
+### 🏆 Hackathons
+
+- **Sundai Hackathon at RSI House, 1st place, 2026**  
+  "[Redshift](https://github.com/VolodymyrLinuxovich/exo-referee)" ([live](https://redshift.egbe.app)), a referee for self-improving models that only promotes changes that hold up on 1,328 NASA Kepler host stars no agent ever sees.
+
+- **Ramp Hackathon, 3rd place in the final, 2026**  
+  "[Tickmark](https://github.com/VolodymyrLinuxovich/tickmark)" ([live](https://tickmark-eta.vercel.app)), which answers an auditor's year-end request list straight from Ramp records and hands back an evidence binder.
+
+- **SF AI Research Hackathon, Google DeepMind award, 2026**  
+  "[Spectre](https://github.com/VolodymyrLinuxovich/spectre)" ([live](https://spectre-referee.vercel.app)), a research agent swarm with a referee that catches fake gains in molecule identification from mass spectra.
+
+- **[Cal Hacks 13.0](https://devpost.com/software/recount-spgda6), Apify and Convex prizes, 2026**  
+  "[Recount](https://github.com/VolodymyrLinuxovich/recount)" ([live](https://recount-nu.vercel.app)), a hospital bill checker that catches overcharges and finds charity care patients qualify for. Built solo.
+
+- **B@BHacks 2.0 by Blockchain@Berkeley, Silver Medal plus Gemini track and medal, 2026**  
+  "[Highwater](https://github.com/VolodymyrLinuxovich/highwater)" ([live](https://highwater-tau.vercel.app)), live pricing for Gemini daily high temperature contracts across 49 US cities.
+
+- **Agentic AI SF Hackathon, 1st place, 2026**  
+  "[FireScout](https://github.com/VolodymyrLinuxovich/firescout)", a wildfire smoke agent that monitors any location and sends smoke risk updates. Built solo.
 
 ---
 
