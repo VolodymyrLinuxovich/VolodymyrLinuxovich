@@ -44,6 +44,9 @@ Also merged in NVIDIA NeMo Curator, OWASP Dependency-Check, Kigali Sim, rioxarra
 
 ### 🏅 Achievements
 
+- **[Berkeley SkyDeck](https://skydeck.berkeley.edu/), 2026**  
+  Founding engineer at Stoa, a startup in UC Berkeley's SkyDeck accelerator.
+
 - **[RISE Global Winner](https://www.risefortheworld.org/global-winners/) (Schmidt Futures & Rhodes Trust), 2024**  
   Top 100 of 50,000+ from 170+ countries with scholarship and project funding.
 
