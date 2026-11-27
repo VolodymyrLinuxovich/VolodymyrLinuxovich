@@ -8,8 +8,8 @@
 
 ### 👨‍💻 About
 
-- 🔭 Building **TacticSquare** for UAV coordination simulation and **FireImpactology** for wildfire exposure analysis.
-- 🎯 Focus: multi-agent RL, stochastic combat models, graph optimization, remote sensing.
+- 🔭 Building AI agent systems with referees that only accept gains that hold up on unseen data ([Spectre](https://github.com/VolodymyrLinuxovich/spectre), [Redshift](https://github.com/VolodymyrLinuxovich/exo-referee)), and contributing to open source data and security tools.
+- 🎯 Focus: AI agents and evaluation, data pipelines, GPU computing, geospatial and climate data.
 - 🛰 Working with Sentinel-2 and ERA5 data, downscaled climate projections and geospatial pipelines.
 - 🇺🇦 From Ukraine; my projects span heat risk, wildfire exposure and UAV coordination.
 - 📈 Kaggle: [rank 10 of 600](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/leaderboard) in Store Sales forecasting, top 1% in Housing Prices, 100+ [public notebooks](https://www.kaggle.com/volodymyrborysenko/code).
